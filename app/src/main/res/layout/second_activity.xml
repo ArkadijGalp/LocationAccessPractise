@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SecondActivity">
+
+
+    <ImageView
+        android:id="@+id/catPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/minitigr"
+        tools:layout_editor_absoluteX="449dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
